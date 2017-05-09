@@ -29,5 +29,6 @@ public class Life01 extends ApplicationAdapter {
 	public void dispose () {
 		batch.dispose();
 		img.dispose();
+		System.out.println("123");
 	}
 }
